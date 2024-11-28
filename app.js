@@ -7,7 +7,9 @@ Array.prototype.last = function () {
   } else {
     return this[this.length - 1];
   }
-};
+};  
+
+
 ////////////    2620       /////////////////
 var createCounter = function (n) {
   return function () {
@@ -18,7 +20,10 @@ var createCounter = function (n) {
 const counter = createCounter(10);
 //  console.log(counter());
 //  console.log(counter());
-//  console.log(counter());
+//  console.log(counter());  
+
+
+
 ////////////         9    ////////////
 
 var isPalindrome = function(x) {
@@ -38,7 +43,11 @@ var isPalindrome = function(x) {
 }; 
 
 
-console.log(isPalindrome(121)); 
-console.log(isPalindrome(-121)); 
-console.log(isPalindrome(11)); 
+// console.log(isPalindrome(121)); 
+// console.log(isPalindrome(-121)); 
+// console.log(isPalindrome(11)); 
 
+////////////////////////////////////////  
+
+
+console.log("hello, node");
