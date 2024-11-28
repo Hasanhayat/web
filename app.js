@@ -49,4 +49,22 @@ var isPalindrome = function(x) {
 ////////////////////////////////////////  
 
 
-console.log("hello, node");
+// console.log("hello, node");
+
+
+///////2621//////////
+
+/**
+ * @param {number} millis
+ * @return {Promise}
+ */
+async function sleep(millis) {
+  return new Promise(resolve => setTimeout(()=>{
+    console.log(millis);
+  }, millis));
+}
+sleep(1000)
+/** 
+ * let t = Date.now()
+ * sleep(100).then(() => console.log(Date.now() - t)) // 100
+ */
