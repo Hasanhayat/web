@@ -83,3 +83,47 @@ var twoSum = function (nums, target) {
   
 };
 console.log(twoSum(nums, target)); 
+
+
+/**import React from "react";
+import ReactDom from "react-dom";
+import "./styles.css";
+function Cv() {
+  return (
+    <section>
+      <hr />
+      <h1>HASSAN HAYAT</h1>
+      <hr />
+      <h2 className="h2">Personal profile</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero totam
+        accusamus doloremque quidem quod atque delectus dolore alias amet ad
+        officiis obcaecati et ducimus, voluptates nihil nulla placeat eligendi.
+        Distinctio.
+      </p>
+      <hr />
+      <h2 className="h2">Education</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero totam
+        accusamus doloremque quidem quod atque delectus dolore alias amet ad
+        officiis obcaecati et ducimus, voluptates nihil nulla placeat eligendi.
+        Distinctio.
+      </p>
+      <hr />
+      <h2 className="h2">Work Experience</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero totam
+        accusamus doloremque quidem quod atque delectus dolore alias amet ad
+        officiis obcaecati et ducimus, voluptates nihil nulla placeat eligendi.
+        Distinctio.
+      </p>
+      <hr />
+      <h2 className="h2">CONTACT US</h2>
+      <a href="tel:+923395001230">+923395001230</a>
+      <br />
+      <a href="mailto:hassanhayat0012@gmail.com">hassanhayat0012@gmail.com</a>
+    </section>
+  );
+}
+ReactDom.render(<Cv />, document.querySelector("#root"));
+**/
