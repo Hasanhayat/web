@@ -127,4 +127,4 @@ function Cv() {
 }
 ReactDom.render(<Cv />, document.querySelector("#root"));
 **/
-//react proj
+//react project
