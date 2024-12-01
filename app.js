@@ -82,7 +82,7 @@ var twoSum = function (nums, target) {
 
   
 };
-console.log(twoSum(nums, target)); 
+// console.log(twoSum(nums, target)); 
 
 
 /**import React from "react";
@@ -128,3 +128,20 @@ function Cv() {
 ReactDom.render(<Cv />, document.querySelector("#root"));
 **/
 //react project
+
+
+
+var compose = function(functions) {
+    
+  return function(x) {
+       for(let i = functions.length-1;i>=0;i--){
+           x = functions[i]
+       }
+       return x;
+   }
+};
+
+
+ const fn = compose([x => x + 1, x => 2 * x])
+//  fn(4) // 9
+console.log(fn(4));
