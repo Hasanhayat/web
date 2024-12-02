@@ -144,4 +144,6 @@ var compose = function(functions) {
 
  const fn = compose([x => x + 1, x => 2 * x])
 //  fn(4) // 9
+
+
 console.log(fn(4));
