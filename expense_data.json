@@ -1,0 +1,29 @@
+{
+    "budget": 0,
+    "transactions": [
+        {
+            "title": "laptop",
+            "amount": 700.0,
+            "type": "Expense",
+            "date": "2025-04-22 14:56"
+        },
+        {
+            "title": "laptop",
+            "amount": 700.0,
+            "type": "Expense",
+            "date": "2025-04-22 14:56"
+        },
+        {
+            "title": "ccc",
+            "amount": 700.0,
+            "type": "Income",
+            "date": "2025-04-22 14:56"
+        },
+        {
+            "title": "ccc",
+            "amount": 9000.0,
+            "type": "Income",
+            "date": "2025-04-22 14:57"
+        }
+    ]
+}
