@@ -6,7 +6,7 @@ Array.prototype.last = function () {
   } else {
     return this[this.length - 1];
   }
-}
+};
 
 ////////////    2620       /////////////////
 var createCounter = function (n) {
